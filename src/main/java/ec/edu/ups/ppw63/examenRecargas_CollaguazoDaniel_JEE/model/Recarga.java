@@ -17,10 +17,10 @@ public class Recarga {
 	public void setTelefono(String telefono) {
 		this.telefono = telefono;
 	}
-	public String getIdOperadora() {
+	public String getOperadora() {
 		return operadora;
 	}
-	public void setIdOperadora(String idOperadora) {
-		this.operadora = idOperadora;
+	public void setOperadora(String Operadora) {
+		this.operadora = Operadora;
 	}
 }

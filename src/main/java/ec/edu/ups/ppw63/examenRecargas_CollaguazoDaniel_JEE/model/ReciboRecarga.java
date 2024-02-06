@@ -17,7 +17,7 @@ public class ReciboRecarga {
 	private Date fecha;
 	private String estado;
 	private double monto;
-	
+	private String operadora;
 	
 	public int getCodigo() {
 		return codigo;
@@ -48,6 +48,15 @@ public class ReciboRecarga {
 	}
 	public void setMonto(double monto) {
 		this.monto = monto;
+	}
+	
+	
+	
+	public String getOperadora() {
+		return operadora;
+	}
+	public void setOperadora(String operadora) {
+		this.operadora = operadora;
 	}
 	@Override
 	public String toString() {

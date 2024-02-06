@@ -53,6 +53,7 @@ public class GestionRecibo {
 		rec.setFecha(new Date());
 		rec.setMonto(recarga.getMonto());
 		rec.setTelefono(rec.getTelefono());
+		rec.setOperadora(recarga.getOperadora());
 		
 		daoRecibo.insert(rec);
 	}
